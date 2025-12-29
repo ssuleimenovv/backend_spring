@@ -1,0 +1,8 @@
+C:\Users\Suleimenov\Desktop\backend_spring\notification-service\src\main\java\com\university\notification\config\KafkaConsumerConfig.java
+C:\Users\Suleimenov\Desktop\backend_spring\notification-service\src\main\java\com\university\notification\controller\NotificationController.java
+C:\Users\Suleimenov\Desktop\backend_spring\notification-service\src\main\java\com\university\notification\dto\EnrollmentCreatedEvent.java
+C:\Users\Suleimenov\Desktop\backend_spring\notification-service\src\main\java\com\university\notification\kafka\EnrollmentEventConsumer.java
+C:\Users\Suleimenov\Desktop\backend_spring\notification-service\src\main\java\com\university\notification\model\Notification.java
+C:\Users\Suleimenov\Desktop\backend_spring\notification-service\src\main\java\com\university\notification\NotificationServiceApplication.java
+C:\Users\Suleimenov\Desktop\backend_spring\notification-service\src\main\java\com\university\notification\repository\NotificationRepository.java
+C:\Users\Suleimenov\Desktop\backend_spring\notification-service\src\main\java\com\university\notification\service\NotificationService.java

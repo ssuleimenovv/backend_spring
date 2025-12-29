@@ -35,6 +35,14 @@ spring:
         spring.json.trusted.packages: "*"
       auto-offset-reset: earliest
 
+  # Keycloak OAuth2 Configuration
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8180/realms/university-realm
+          jwk-set-uri: http://localhost:8180/realms/university-realm/protocol/openid-connect/certs
+
 server:
   port: 8080
 
@@ -53,3 +61,10 @@ springdoc:
     operations-sorter: method
     tags-sorter: alpha
     try-it-out-enabled: true
+
+# JWT Claims Configuration
+jwt:
+  auth:
+    converter:
+      resource-id: course-registration-api
+      principal-attribute: preferred_username

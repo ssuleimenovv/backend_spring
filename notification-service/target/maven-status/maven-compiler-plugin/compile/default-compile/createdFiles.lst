@@ -1,0 +1,9 @@
+com\university\notification\controller\NotificationController.class
+com\university\notification\dto\EnrollmentCreatedEvent.class
+com\university\notification\model\Notification$NotificationStatus.class
+com\university\notification\service\NotificationService.class
+com\university\notification\kafka\EnrollmentEventConsumer.class
+com\university\notification\NotificationServiceApplication.class
+com\university\notification\config\KafkaConsumerConfig.class
+com\university\notification\model\Notification.class
+com\university\notification\repository\NotificationRepository.class
